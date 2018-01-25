@@ -1,0 +1,14 @@
+p{
+	font-size: 12pt;
+}
+h1 {
+	font-size: 30pt;
+	font-family: Helvetica, sans-serif;
+}
+li {
+	width: 700px;
+	font-family: Helvetica, sans-serif;
+}
+ul {
+	padding-top: 25px;
+}
