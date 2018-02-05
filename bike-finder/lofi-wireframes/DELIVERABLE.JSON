@@ -1,0 +1,16 @@
+{
+  "entrypoints" : [
+    {
+      "name" : "Home Page",
+      "file" : "index.html"
+    },
+    {
+      "name" : "List Page",
+      "file" : "index2.html"
+    },
+    {
+      "name" : "Product Page",
+      "file" : "index3.html"
+    }
+  ]
+}
