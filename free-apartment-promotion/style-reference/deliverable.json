@@ -1,0 +1,16 @@
+{
+  "entrypoints" : [
+    {
+      "name" : "Style Reference 1",
+      "file" : "index.html"
+    },
+    {
+      "name" : "Style Reference 2",
+      "file" : "index2.html"
+    },
+    {
+      "name" : "Style Reference 3",
+      "file" : "index3.html"
+    }
+  ]
+}
