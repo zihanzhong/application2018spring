@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+</head>
+<body id="sign">
+	<div class="container">
+		<h1>Sign Up</h1>
+		<div class="info" style="
+    margin-left: 35%;
+    margin-top: 24%;
+">
+			<form>
+				<div class="fname">
+				<input id="fname" required type="text" name="fname" placeholder="First name"><span id="fwrongname" class="error">* Please fill out the required field</span>
+				</div>
+				<br>
+				<div class="lname">
+				<input id="lname" required type="text" name="lname" placeholder="Last name"><span id="lwrongname" class="error">* Please fill out the required field</span>
+				</div><br>
+				<input id="email" required type="text" name="email" placeholder="WUSTL Email Address"> <p id="test3" style="
+    font-size: 12px;
+    margin-top: 2%;
+"> </p>
+			</form>
+		</div>
+		<div class="button">
+				<div id="submitbtn" type="button" ><h3 class="button-text">Submit</h3></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+	 		$(".button-text").click(function(){ 
+			emailValidator($("#email").val());
+			ValidateForm($("#fname").val());
+			ValidateForm($("#lname").val());
+			});
+		});
+		function ValidateForm(fname, lname) {
+		 if (document.getElementById('lname').value == "") {
+        document.getElementById('lwrongname').style.display = "block";
+        hasError = true;
+    } else {
+        document.getElementById('lwrongname').style.display = "none";   
+    }
+        if (document.getElementById('fname').value == "") {
+        document.getElementById('fwrongname').style.display = "block";
+        hasError = true;
+    } else {
+        document.getElementById('fwrongname').style.display = "none";   
+    }
+}
+
+		function emailValidator(email) {
+			var emailAddress = document.getElementById('email').value;
+			var emailPattern = /^([a-zA-Z0-9_\-\.]+)@wustl.edu/;
+			var emailResult = emailPattern.test(emailAddress);
+			if(emailResult == false){
+				$("#test3").text("* Please fill out a valid WUSTL Email Address");
+			}
+			else{
+				window.open("thanks.html", "_self");
+			}
+		}	
+	</script>
+</body>
+</html>

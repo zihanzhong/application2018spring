@@ -1,0 +1,183 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image:url(APTF-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #DDCBCC;
+}
+h1{
+    margin-left: 12%;
+    padding-top: 19%;
+    line-height: 1;
+    font-size: 52px;
+    color: #222662;
+}
+h2#one {
+    position: absolute;
+    font-size: 13px;
+    margin-left: 12.5%;
+    color: #222662;
+    margin-top: 14%;
+}
+h2#two {
+	position: absolute;
+    font-size: 13px;
+    margin-left: 12.5%;
+    color: #222662;
+    margin-top: -8%;
+} 
+h3 {
+	text-decoration:none;
+	color: #FBAE17;
+	font-size: 20px;
+}
+.button1{
+	width: 280px;
+	height: 50px;
+	margin: auto;
+	position: absolute;
+	margin-top: 2%;
+	cursor: pointer;
+}
+.button1 {
+    width: 20%;
+    height: 10%;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 29%;
+    cursor: pointer;
+}
+h3{
+	color: #FBAE17;
+    font-size: 47px;
+}
+a {
+	text-decoration: none;
+}
+.button2 {
+    height: 10%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 118%;
+    cursor: pointer;
+}
+h4{
+	font-size: 20px;
+	color: #F0DADB;
+}
+#email{
+    width: 65%;
+    height: 30px;
+    border: none;
+    margin-top: 8%;
+}
+.fname{
+    width: 65%;
+    height: 28px;
+}
+#fname{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+#lwrongname{
+	font-size: 12px;
+	font-weight: normal;
+}
+#fwrongname{
+	font-size: 12px;
+	font-weight: normal;
+}
+.lname{
+	display: inline-block;
+    width: 65%;
+    height: 28px;
+}
+#lname{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+body#sign{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image:url(APTF-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #DDCBCC;
+
+}
+div#info{
+    margin-left: 35%;
+}
+h3.button-text{
+    font-size: 31px;
+}
+div#submitbtn{
+    outline: auto;
+    margin-left: 36%;
+    text-align: center;
+    width: 40%;
+    outline-color: #FBAE17;
+}
+body.you{
+    background-color: #E0C3CC;
+    background-image: url(APTF-05.jpg);
+}
+h1#oo{
+	font-size: 55px;
+}
+body.count{
+	background-color: #CFB6BD;
+    background-image: url(APT.jpg);
+
+}
+h1#after{
+	margin-top: -9%;
+	margin-left: 4%;
+    text-align: center;
+}
+h5.small{
+	margin-left: 88%;
+    margin-top: 142%;
+    color: #f4c127;
+}
+h1#final{
+	font-size: 30px;
+}
+body#congrat{
+	background-color:#E0C3CC;
+	background-image:url(APTF-05.jpg);
+}
+h5.more{
+	    text-align: center;
+    margin-top: 131%;
+    margin-left: 6%;
+    color: #E0C3CC;
+}
+body.info{
+	background-image: url(APTF-06.jpg);
+	background-color: #DDCBCC;
+}
+@media(min-width: 800px) and (max-width: 2000px){
+	body{
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+	}
+}
