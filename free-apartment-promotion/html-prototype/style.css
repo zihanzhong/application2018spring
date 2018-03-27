@@ -45,6 +45,10 @@ h3 {
 	margin-top: 2%;
 	cursor: pointer;
 }
+div.info{
+    margin-left: 34%;
+    margin-top: 20%;
+}
 .button1 {
     width: 20%;
     height: 10%;
@@ -213,6 +217,12 @@ h2#two {
         margin-left: 24%;
     margin-top: 13%;
 }
+div.info{
+    margin-top: 5%;
+    margin-left: 24%;
+    width: 42%;
+}
+
 body#sign {
     background-position: 94% 31%;
     background-size: 30%;
