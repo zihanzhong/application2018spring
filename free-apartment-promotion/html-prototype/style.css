@@ -125,6 +125,7 @@ body#sign{
 }
 div#info{
     margin-left: 35%;
+    margin-top: 24%;
 }
 h3.button-text{
     font-size: 31px;
@@ -165,6 +166,13 @@ body#congrat{
 	background-color:#E0C3CC;
 	background-image:url(APTF-05.jpg);
 }
+p#text{
+    font-size: 12px;
+    margin-top: 33%;
+    width: 65%;
+    margin-left: 20%;
+    color: #222662;
+}
 h5.more{
 	    text-align: center;
     margin-top: 131%;
@@ -177,7 +185,35 @@ body.info{
 }
 @media(min-width: 800px) and (max-width: 2000px){
 	body{
-	background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-position: 88% 10%;
+    background-attachment: fixed;
+    background-size: 365px;
 	}
+h1{
+    margin-left: 24%;
+    padding-top: 19%;
+}
+p#text {
+    margin-top: 3%;
+    width: 32%;
+    margin-left: 24%;}
+h2#one {
+    margin-left: 8.5%;
+    margin-top: 16%;
+}
+h2#two {
+    margin-left: 39.5%;
+    margin-top: -2%;
+} 
+.button1 {
+    margin-left: 16%;
+    margin-top: 0%;
+}
+.button2 {
+        margin-left: 24%;
+    margin-top: 13%;
+}
+body#sign {
+    background-position: 94% 31%;
+    background-size: 30%;
 }
