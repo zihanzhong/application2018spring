@@ -1,0 +1,13 @@
+section.mockups {
+  padding: 50px;
+  width: 1200px;
+}
+.image {
+  width: 290px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px;
+}
+img {
+  width: 100%;
+}
